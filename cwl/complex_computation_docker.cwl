@@ -7,7 +7,7 @@ baseCommand: [python3, /scripts/complex_computation.py]
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/ratschlab/workflow-experiment
+  dockerPull: quay.io/ratschlab/workflow-experiment:latest
 
 inputs:
   input_file:

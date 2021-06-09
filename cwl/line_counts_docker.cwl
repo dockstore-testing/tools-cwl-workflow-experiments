@@ -5,7 +5,7 @@ class: CommandLineTool
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/ratschlab/workflow-experiment
+  dockerPull: quay.io/ratschlab/workflow-experiment:latest
 
 baseCommand: [/scripts/line_counts.sh]
 
